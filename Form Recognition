@@ -1,0 +1,172 @@
+========================================================================================
+Session 1 (immediate posttest)
+========================================================================================
+[[1]]
+          n mean   sd median trimmed  mad min  max range skew kurtosis   se
+Average  49 0.29 0.17   0.28    0.28 0.16   0 0.89  0.89 0.88     1.71 0.02
+
+[[2]]
+          n mean   sd median trimmed  mad min max range skew kurtosis   se
+Total    49 5.18 3.13      5    4.98 2.97   0  16    16 0.88     1.71 0.45
+
+
+Some items ( lenfes sanco ) were negatively correlated with the total scale and probably should be reversed.  
+To do this, run the function again with the 'check.keys=TRUE' option
+Reliability analysis   
+Call: alpha(x = x, na.rm = T, check.keys = F)
+
+  raw_alpha std.alpha G6(smc) average_r  S/N    ase  mean    sd
+     0.687      0.69   0.824      0.11 2.23 0.0645 0.288 0.174
+
+ lower alpha upper     95% confidence boundaries
+0.561 0.687 0.813 
+
+ Reliability if an item is dropped:
+       raw_alpha std.alpha G6(smc) average_r  S/N alpha se
+gespar     0.660     0.667   0.806     0.105 2.00   0.0702
+rintos     0.658     0.665   0.807     0.104 1.98   0.0709
+borgar     0.676     0.679   0.809     0.111 2.12   0.0666
+torbir     0.671     0.676   0.803     0.109 2.09   0.0679
+parbir     0.657     0.654   0.791     0.100 1.89   0.0708
+conmes     0.673     0.677   0.799     0.110 2.09   0.0673
+despo      0.683     0.687   0.811     0.114 2.19   0.0653
+jarpir     0.673     0.676   0.810     0.110 2.09   0.0676
+lenfes     0.700     0.706   0.826     0.124 2.40   0.0620
+funtir     0.672     0.676   0.809     0.109 2.08   0.0676
+bostes     0.670     0.671   0.794     0.107 2.04   0.0680
+sombal     0.664     0.666   0.802     0.105 1.99   0.0694
+busfa      0.677     0.682   0.810     0.112 2.15   0.0667
+dultar     0.681     0.684   0.820     0.113 2.17   0.0657
+samper     0.662     0.659   0.802     0.102 1.93   0.0697
+sanco      0.709     0.717   0.834     0.130 2.54   0.0607
+nibar      0.678     0.680   0.808     0.111 2.12   0.0665
+cergue     0.670     0.674   0.799     0.108 2.06   0.0677
+
+ Item statistics 
+        n   raw.r  std.r   r.cor r.drop  mean    sd
+gespar 49 0.51777 0.4921  0.4577  0.386 0.571 0.500
+rintos 49 0.53490 0.5111  0.4752  0.406 0.429 0.500
+borgar 49 0.41117 0.3901  0.3490  0.266 0.571 0.500
+torbir 49 0.43273 0.4183  0.3892  0.300 0.306 0.466
+parbir 49 0.55994 0.5910  0.5978  0.475 0.143 0.354
+conmes 49 0.41058 0.4102  0.3898  0.289 0.224 0.422
+despo  49 0.34463 0.3245  0.2813  0.199 0.347 0.481
+jarpir 49 0.41089 0.4138  0.3730  0.286 0.245 0.434
+lenfes 49 0.16555 0.1477  0.0757  0.027 0.245 0.434
+funtir 49 0.42775 0.4204  0.3837  0.290 0.347 0.481
+bostes 49 0.43164 0.4568  0.4455  0.322 0.184 0.391
+sombal 49 0.48709 0.5032  0.4856  0.367 0.265 0.446
+busfa  49 0.38981 0.3623  0.3172  0.253 0.306 0.466
+dultar 49 0.29969 0.3453  0.2733  0.199 0.122 0.331
+samper 49 0.52460 0.5560  0.5407  0.448 0.102 0.306
+sanco  49 0.00947 0.0278 -0.0710 -0.109 0.163 0.373
+nibar  49 0.36262 0.3857  0.3452  0.242 0.204 0.407
+cergue 49 0.44712 0.4368  0.4207  0.307 0.408 0.497
+
+Non missing response frequency for each item
+           0     1 miss
+gespar 0.429 0.571    0
+rintos 0.571 0.429    0
+borgar 0.429 0.571    0
+torbir 0.694 0.306    0
+parbir 0.857 0.143    0
+conmes 0.776 0.224    0
+despo  0.653 0.347    0
+jarpir 0.755 0.245    0
+lenfes 0.755 0.245    0
+funtir 0.653 0.347    0
+bostes 0.816 0.184    0
+sombal 0.735 0.265    0
+busfa  0.694 0.306    0
+dultar 0.878 0.122    0
+samper 0.898 0.102    0
+sanco  0.837 0.163    0
+nibar  0.796 0.204    0
+cergue 0.592 0.408    0
+
+
+========================================================================================
+Session 2 (delayed posttest)
+========================================================================================
+[[1]]
+          n mean  sd median trimmed  mad min  max range skew kurtosis   se
+Average  49 0.29 0.2   0.22    0.27 0.16   0 0.78  0.78 0.66    -0.64 0.03
+
+[[2]]
+          n mean   sd median trimmed  mad min max range skew kurtosis  se
+Total    49 5.14 3.52      4    4.93 2.97   0  14    14 0.66    -0.64 0.5
+
+Some items ( sanco ) were negatively correlated with the total scale and probably should be reversed.  
+To do this, run the function again with the 'check.keys=TRUE' option
+Reliability analysis   
+Call: alpha(x = x, na.rm = T, check.keys = F)
+
+  raw_alpha std.alpha G6(smc) average_r  S/N    ase  mean    sd
+     0.772     0.776    0.85     0.161 3.46 0.0465 0.286 0.196
+
+ lower alpha upper     95% confidence boundaries
+0.681 0.772 0.863 
+
+ Reliability if an item is dropped:
+       raw_alpha std.alpha G6(smc) average_r  S/N alpha se
+gespar     0.750     0.755   0.835     0.154 3.09   0.0511
+rintos     0.748     0.753   0.830     0.152 3.06   0.0516
+borgar     0.770     0.772   0.839     0.166 3.39   0.0466
+torbir     0.744     0.750   0.828     0.150 3.00   0.0525
+parbir     0.755     0.756   0.833     0.154 3.10   0.0502
+conmes     0.750     0.754   0.831     0.152 3.06   0.0511
+despo      0.770     0.773   0.844     0.167 3.41   0.0470
+jarpir     0.768     0.770   0.844     0.165 3.35   0.0474
+lenfes     0.766     0.769   0.840     0.164 3.33   0.0479
+funtir     0.766     0.769   0.836     0.164 3.32   0.0479
+bostes     0.765     0.770   0.838     0.164 3.34   0.0483
+sombal     0.778     0.783   0.851     0.175 3.60   0.0455
+busfa      0.764     0.767   0.843     0.163 3.30   0.0481
+dultar     0.771     0.775   0.841     0.169 3.45   0.0470
+samper     0.754     0.754   0.834     0.153 3.06   0.0504
+sanco      0.784     0.792   0.855     0.183 3.80   0.0443
+nibar      0.749     0.749   0.816     0.149 2.99   0.0513
+cergue     0.756     0.760   0.839     0.157 3.17   0.0500
+
+ Item statistics 
+        n  raw.r std.r  r.cor  r.drop  mean    sd
+gespar 49 0.5896 0.579 0.5443  0.4878 0.633 0.487
+rintos 49 0.6088 0.602 0.5873  0.5171 0.286 0.456
+borgar 49 0.3902 0.374 0.3366  0.2604 0.429 0.500
+torbir 49 0.6463 0.637 0.6280  0.5555 0.347 0.481
+parbir 49 0.5559 0.567 0.5481  0.4858 0.122 0.331
+conmes 49 0.5890 0.599 0.5867  0.4993 0.245 0.434
+despo  49 0.3627 0.359 0.3024  0.2427 0.286 0.456
+jarpir 49 0.4137 0.397 0.3433  0.2850 0.531 0.504
+lenfes 49 0.4145 0.409 0.3719  0.2988 0.286 0.456
+funtir 49 0.4172 0.415 0.3884  0.2992 0.306 0.466
+bostes 49 0.4013 0.405 0.3698  0.3122 0.143 0.354
+sombal 49 0.2261 0.228 0.1548  0.1127 0.204 0.407
+busfa  49 0.4257 0.433 0.3793  0.3170 0.245 0.434
+dultar 49 0.3144 0.333 0.2876  0.2144 0.163 0.373
+samper 49 0.5738 0.598 0.5751  0.5055 0.122 0.331
+sanco  49 0.0927 0.100 0.0191 -0.0133 0.163 0.373
+nibar  49 0.6355 0.650 0.6650  0.5696 0.143 0.354
+cergue 49 0.5334 0.519 0.4744  0.4188 0.490 0.505
+
+Non missing response frequency for each item
+           0     1 miss
+gespar 0.367 0.633    0
+rintos 0.714 0.286    0
+borgar 0.571 0.429    0
+torbir 0.653 0.347    0
+parbir 0.878 0.122    0
+conmes 0.755 0.245    0
+despo  0.714 0.286    0
+jarpir 0.469 0.531    0
+lenfes 0.714 0.286    0
+funtir 0.694 0.306    0
+bostes 0.857 0.143    0
+sombal 0.796 0.204    0
+busfa  0.755 0.245    0
+dultar 0.837 0.163    0
+samper 0.878 0.122    0
+sanco  0.837 0.163    0
+nibar  0.857 0.143    0
+cergue 0.510 0.490    0
+
