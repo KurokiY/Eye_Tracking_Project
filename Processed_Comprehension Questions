@@ -1,5 +1,3 @@
-Remove items that negatively correlate with the total scale, one at a time, starting from the most negative, and re-calculate Cronbach’s alpha at each step.
-
 ############################################################################
 Positive (Removed Item 14 ) raw_alpha = 0.548
 ############################################################################
