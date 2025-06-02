@@ -10,8 +10,7 @@ Average  43  0.8 0.13   0.83     0.8 0.16 0.56   1  0.44 -0.33    -1.23 0.02
           n  mean   sd median trimmed  mad min max range  skew kurtosis   se
 Total    43 14.37 2.36     15   14.46 2.97  10  18     8 -0.33    -1.23 0.36
 
-Some items ( Pos05 Pos14 ) were negatively correlated with the total scale and 
-probably should be reversed.  
+Some items ( Pos05 Pos14 ) were negatively correlated with the total scale and probably should be reversed.  
 To do this, run the function again with the 'check.keys=TRUE' option
 Reliability analysis   
 Call: alpha(x = x, na.rm = T, check.keys = F)
@@ -97,8 +96,7 @@ Average  43 0.59 0.14   0.61    0.59 0.16 0.28 0.89  0.61 -0.07    -0.52 0.02
           n  mean   sd median trimmed  mad min max range  skew kurtosis   se
 Total    43 10.63 2.48     11   10.66 2.97   5  16    11 -0.07    -0.52 0.38
 
-Some items ( Neu01 Neu05 Neu10 Neu15 ) were negatively correlated with the total scale and 
-probably should be reversed.  
+Some items ( Neu01 Neu05 Neu10 Neu15 ) were negatively correlated with the total scale and probably should be reversed.  
 To do this, run the function again with the 'check.keys=TRUE' option
 Reliability analysis   
 Call: alpha(x = x, na.rm = T, check.keys = F)
@@ -183,8 +181,7 @@ Average  43 0.61 0.11   0.61    0.61 0.16 0.33 0.83   0.5 -0.34    -0.59 0.02
           n  mean   sd median trimmed  mad min max range  skew kurtosis   se
 Total    43 10.98 2.02     11   11.06 2.97   6  15     9 -0.34    -0.59 0.31
 
-Some items ( Neg06 Neg13 Neg16 Neg17 ) were negatively correlated with the total scale and 
-probably should be reversed.  
+Some items ( Neg06 Neg13 Neg16 Neg17 ) were negatively correlated with the total scale and probably should be reversed.  
 To do this, run the function again with the 'check.keys=TRUE' option
 Reliability analysis   
 Call: alpha(x = x, na.rm = T, check.keys = F)
